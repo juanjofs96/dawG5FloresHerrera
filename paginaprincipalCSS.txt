@@ -1,7 +1,0 @@
-﻿img.logo {
-  width: 10em
-}
-
-img.sb {
-  width: 50em
-}
