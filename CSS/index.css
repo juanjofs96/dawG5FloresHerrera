@@ -1,10 +1,12 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+h1,h2 {
+	font-family: 'Oswald';
+}
 
-
-h1, h2 {
-	font-family: 'Oswald', sans-serif;
+nav{
+	font-family: 'Open Sans';
 }
 
 span {
@@ -29,7 +31,7 @@ img.redes {
 
 footer {
 	text-align: center;
-	background-color: dodgerblue;
+	background-color: #08088A;
 	color: white;
 	font-weight: bold;
 	font-size: 1.1em;
