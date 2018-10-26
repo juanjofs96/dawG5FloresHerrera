@@ -32,14 +32,70 @@
     </nav>
 
     <section>
-      <div class="row align-items-center">
-        <h1 class="col-12 border border-dark">Visión</h1>
-        <img class="col-6 border border-dark" src="https://via.placeholder.com/1000x380" alt="placeholder"/>
-        <div class="w-100">
-        <p class="col-6 border border-dark"> 
-          La misión de la Academia Politecnica de Nivelación es promover el conocimiento y educar a los estudiantes en ciencia, tecnología y otras áreas académicas que servirán mejor a la nación y al mundo en el siglo XXI. La Academia Politecnica de Nivelación se dedica a brindar a sus estudiantes una educación que combina un estudio académico riguroso y la emoción del descubrimiento con el apoyo y la estimulación intelectual de una comunidad diversa. Buscamos desarrollar en cada miembro de la comunidad la capacidad y la pasión de trabajar de manera inteligente, creativa y eficaz para el mejoramiento de la humanidad.
-        </p>
-      </div>
+      <h2>Ingresa tus datos aqui para la inscripcion al curso que desees</h2>
+      <form>Formulario de inscripcion
+        <div>
+          <label for="nombre">Nombres</label>
+          <input type="text" id="nombre" placeholder="Juan" required>
+        </div>
+        <div>
+          <label for="genero">Genero</label>
+          <input list="genero">
+          <datalist id="genero">
+            <option value="Masculino">
+            <option value="Femenino">
+          </datalist>
+        </div>
+        <div>
+          <label for="nombre">No. de Cedula</label>
+          <input type="number" id="cedula" placeholder="0123456789" required>
+        </div>
+        <div>
+        <div>
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" pattern="[a-zA-Z]" placeholder="juajoflo@espol.edu.ec" required>
+        </div>  
+        <div>
+          <label for="numero">Número telefónico</label>
+          <input type="tel" id="numero" pattern="[0-9]{10}" placeholder="0123456789" required>
+        </div>
+        <div>
+          <label for="lista">Escoje el curso que deseas</label>
+          <input list="lista">
+          <datalist id="lista">
+            <option value="Examen Ser Bachiller">
+            <option value="PrePolitecnico">
+          </datalist>
+        </div>
+        <div>
+          <input type="radio" id="basura" required>
+          <label for="basura">Recolección de basura</label>
+        </div>
+        <div>
+          <input type="radio" id="accidente" required>
+          <label for="accidente">Accidente</label>
+        </div>
+        <div>
+          <input type="radio" id="alumbrado" required>
+          <label for="alumbrado">Alumbrado Público</label>
+        </div>
+        <div>
+          <input type="radio" id="seguridad" required>
+          <label for="seguridad">Seguridad</label>
+        </div>
+        <div>
+          <label for="foto">Agregue foto</label>
+          <input type="image" id="foto" alt="f">
+        </div>
+        <div>
+          <input type="checkbox" id ="caja" required>
+          <label for="caja">Yo deseo recibir noticias en mi correo electrónico</label>
+        </div>
+        <div>
+          <input type="button" value="Enviar" id = "boton">
+        </div>
+      </form>
+            
     </section>
     
     <footer>
