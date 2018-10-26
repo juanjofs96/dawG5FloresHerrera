@@ -26,56 +26,70 @@
         <div class="col-2 border border-dark"><a href="vision.html">Visión</a></div>
         <div class="col-2 border border-dark"><a href="noticias.html">Noticias</a></div>
         <div class="col-2 border border-dark"><a href="preguntas.html">Preguntas Frecuentes</a></div>
-        <div class="col-2 border border-dark"><a href="contactenos.html">Contactenos</a></div>
+        <div class="col-2 border border-dark"><span>Contactenos</span></div>
       </div>
 
     </nav>
     
     <section>
-      
-      <div>
-        <div><img class="sb" src="img/sb.jpg" alt="serbachiller"></div>
-        <aside id="cursos" class="col-3">
-          <article>
-            <header>
-              <h2>Cursos</h2>
-            </header>
-            <img src="https://via.placeholder.com/50x50" alt="placeholder" />
-          </article>
-          <article>
-            <header>
-                <h2>Lorem ipsum dolor sit amet</h2>
-            </header>
-            <img src="https://via.placeholder.com/50x50" alt="placeholder" />
-              
-          </article>
-          <article>
-            <header>
-                <h2>Lorem ipsum dolor sit amet</h2>
-            </header>
-            <img src="https://via.placeholder.com/50x50" alt="placeholder" />
-                
-          </article>
-          <article>
-            <header>
-              <h2>Lorem ipsum dolor sit amet</h2>
-            </header>
-            <img src="https://via.placeholder.com/50x50" alt="placeholder" />
-                
-          </article>
-          <article>
-            <header>
-              <h2>Lorem ipsum dolor sit amet</h2>
-            </header>
-            <img src="https://via.placeholder.com/50x50" alt="placeholder" />
-                
-          </article>
-        </aside>
+      <h2>Ingresa tus datos aqui para contacto</h2>
+      <form>Formulario de contacto
         <div>
-          <p>Una vez concluida la fase de recepción y respuesta de solicitudes de habilitación de cuenta, inicia la etapa de inscripciones que, para el segundo semestre 2018, se cumplió del 27 de abril al 21 de mayo. En este lapso de tiempo, tanto los estudiantes de tercero de Bachillerato que estén próximos a graduarse como los bachilleres de años anteriores interesados en acceder a la educación superior pública deben ingresar a www.serbachiller.ec, crear una cuenta en caso de no tenerla, llenar su ficha de registro, completarla y subir al sistema la encuesta de factores asociados para de esta forma quedar correctamente inscritos. Como respaldo, la plataforma emite un comprobante que sirve para constatación de haber realizado la inscripción con éxito.</p>
+          <label for="nombre">Nombres</label>
+          <input type="text" id="nombre" placeholder="Juan" required>
         </div>
-      </div>
-        
+        <div>
+          <label for="genero">Genero</label>
+          <input list="genero">
+          <datalist id="genero">
+            <option value="Masculino">
+            <option value="Femenino">
+          </datalist>
+        </div>
+        <div>
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" pattern="[a-zA-Z]" placeholder="juajoflo@espol.edu.ec" required>
+        </div>  
+        <div>
+          <label for="numero">Número telefónico</label>
+          <input type="tel" id="numero" pattern="[0-9]{10}" placeholder="0123456789" required>
+        </div>
+        <div>
+          <label for="lista">Escoje el curso que deseas</label>
+          <input list="lista">
+          <datalist id="lista">
+            <option value="Examen Ser Bachiller">
+            <option value="PrePolitecnico">
+          </datalist>
+        </div>
+        <div>
+          <input type="radio" id="basura" required>
+          <label for="basura">Recolección de basura</label>
+        </div>
+        <div>
+          <input type="radio" id="accidente" required>
+          <label for="accidente">Accidente</label>
+        </div>
+        <div>
+          <input type="radio" id="alumbrado" required>
+          <label for="alumbrado">Alumbrado Público</label>
+        </div>
+        <div>
+          <input type="radio" id="seguridad" required>
+          <label for="seguridad">Seguridad</label>
+        </div>
+        <div>
+          <label for="foto">Agregue foto</label>
+          <input type="image" id="foto" alt="f">
+        </div>
+        <div>
+          <input type="checkbox" id ="caja" required>
+          <label for="caja">Yo deseo recibir noticias en mi correo electrónico</label>
+        </div>
+        <div>
+          <input type="button" value="Enviar" id = "boton">
+        </div>
+      </form>
             
     </section>
     
