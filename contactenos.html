@@ -12,106 +12,126 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <title>Contactenos</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <header class="row align-items-center">
-      <h1 class="col-10 border border-dark"><a href="principal.html">Academia Politecnica de Nivelacion</a></h1>
-      <img class="logo col-2 border border-dark" src="img/logo.png" alt="logo">
-    </header>
-
-    <nav>
-      <div class="row align-items-center">
-        <div class="col-2 border border-dark"><a href="nosotros.html">Nosotros</a></div>
-        <div class="col-2 border border-dark"><a href="mision.html">Misión</a></div>
-        <div class="col-2 border border-dark"><a href="vision.html">Visión</a></div>
-        <div class="col-2 border border-dark"><a href="noticias.html">Noticias</a></div>
-        <div class="col-2 border border-dark"><a href="preguntas.html">Preguntas Frecuentes</a></div>
-        <div class="col-2 border border-dark"><span>Contactenos</span></div>
-      </div>
-
-    </nav>
-    
-    <section>
-      <h2>Ingresa tus datos aqui para contacto</h2>
-      <form>Formulario de contacto
-        <div>
-          <label for="nombre">Nombres</label>
-          <input type="text" id="nombre" placeholder="Juan" required>
-        </div>
-        <div>
-          <label for="genero">Genero</label>
-          <input list="genero">
-          <datalist id="genero">
-            <option value="Masculino">
-            <option value="Femenino">
-          </datalist>
-        </div>
-        <div>
-          <label for="nombre">No. de Cedula</label>
-          <input type="number" id="cedula" placeholder="0123456789" required>
-        </div>
-        <div>
-          <label for="correo">Correo electrónico</label>
-          <input type="email" id="correo" pattern="[a-zA-Z]" placeholder="juajoflo@espol.edu.ec" required>
-        </div>  
-        <div>
-          <label for="numero">Número telefónico</label>
-          <input type="tel" id="numero" pattern="[0-9]{10}" placeholder="0123456789" required>
-        </div>
-        <div>
-          <label for="lista">Escoje el curso que deseas</label>
-          <input list="lista">
-          <datalist id="lista">
-            <option value="Examen Ser Bachiller">
-            <option value="PrePolitecnico">
-          </datalist>
-        </div>
-        <div>
-          <input type="radio" id="basura" required>
-          <label for="basura">Recolección de basura</label>
-        </div>
-        <div>
-          <input type="radio" id="accidente" required>
-          <label for="accidente">Accidente</label>
-        </div>
-        <div>
-          <input type="radio" id="alumbrado" required>
-          <label for="alumbrado">Alumbrado Público</label>
-        </div>
-        <div>
-          <input type="radio" id="seguridad" required>
-          <label for="seguridad">Seguridad</label>
-        </div>
-        <div>
-          <label for="foto">Agregue foto</label>
-          <input type="image" id="foto" alt="f">
-        </div>
-        <div>
-          <input type="checkbox" id ="caja" required>
-          <label for="caja">Yo deseo recibir noticias en mi correo electrónico</label>
-        </div>
-        <div>
-          <input type="button" value="Enviar" id = "boton">
-        </div>
-      </form>
-            
-    </section>
-    
-    <footer>
-      
-      <div class="row align-items-center">
-        <div class="col-4 border border-dark"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></div>
-        <div class="col-4 border border-dark"><a id="twi" href="#">twitter</a></div>
-        <div class="col-4 border border-dark"><a id="insta" href="#">instagram</a></div>
-      </div>
-      <div class="row align-items-center">
-        <p class="col-12 border border-dark">&copy;2018 Academia Politecnica de Nivelación. Todos los derechos reservados.</p>
-      </div>
-      
-    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header class="col-xl-12">
+          <div class="row">
+            <h1 class="col-xl-10 border border-dark"><a href="principal.html">Academia Politecnica de Nivelación</a></h1>
+            <img class="logo col-xl-2 border border-dark" src="img/logo.png" alt="logo">
+          </div>
+        </header>
+        
+      </div>
+
+      <div class="row sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info col-xl-12">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="menuPrincipal" class="collapse navbar-collapse">
+            <ul class="list-inline navbar-nav mx-auto">
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="nosotros.html">Nosotros</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="mision.html">Misión</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="vision.html">Visión</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="noticias.html">Noticias</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="preguntas.html">Preguntas Frecuentes</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="contactenos.html">Contactenos</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <section class="col-xl-12">
+          <h2>Ingresa tus datos aqui para contacto</h2>
+          <form>Formulario de contacto
+            <div>
+              <label for="nombre">Nombres</label>
+              <input type="text" id="nombre" placeholder="Juan" required>
+            </div>
+            <div>
+              <label for="genero">Genero</label>
+              <input list="genero">
+              <datalist id="genero">
+                <option value="Masculino">
+                <option value="Femenino">
+              </datalist>
+            </div>
+            <div>
+              <label for="nombre">No. de Cedula</label>
+              <input type="number" id="cedula" placeholder="0123456789" required>
+            </div>
+            <div>
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" pattern="[a-zA-Z]" placeholder="juajoflo@espol.edu.ec" required>
+            </div>  
+            <div>
+              <label for="numero">Número telefónico</label>
+              <input type="tel" id="numero" pattern="[0-9]{10}" placeholder="0123456789" required>
+            </div>
+            <div>
+              <label for="lista">Escoje el curso que deseas</label>
+              <input list="lista">
+              <datalist id="lista">
+                <option value="Examen Ser Bachiller">
+                <option value="PrePolitecnico">
+              </datalist>
+            </div>
+            <div>
+              <input type="radio" id="basura" required>
+              <label for="basura">Recolección de basura</label>
+            </div>
+            <div>
+              <input type="radio" id="accidente" required>
+              <label for="accidente">Accidente</label>
+            </div>
+            <div>
+              <input type="radio" id="alumbrado" required>
+              <label for="alumbrado">Alumbrado Público</label>
+            </div>
+            <div>
+              <input type="radio" id="seguridad" required>
+              <label for="seguridad">Seguridad</label>
+            </div>
+            <div>
+              <label for="foto">Agregue foto</label>
+              <input type="image" id="foto" alt="f">
+            </div>
+            <div>
+              <input type="checkbox" id ="caja" required>
+              <label for="caja">Yo deseo recibir noticias en mi correo electrónico</label>
+            </div>
+            <div>
+              <input type="button" value="Enviar" id = "boton">
+            </div>
+          </form>      
+        </section>
+      </div>
+
+      <div class="row">
+        <section class="col-xl-12 border border-dark">
+          <div class="row">
+            <ul class="col-xl-12 list-inline">
+              <li class="list-inline-item"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></li>
+              <li class="list-inline-item"><a id="twi" href="#">twitter</a></li>
+              <li class="list-inline-item"><a id="insta" href="#">instagram</a></li>
+            </ul> 
+          </div>
+        </section>
+      </div>
+
+      <div class="row">
+        <footer class="col-xl-12 border border-dark">
+          <p>&copy;2018 Academia Politecnica de Nivelación. Todos los derechos reservados.</p>
+        </footer>
+      </div>
+    </div>
+    
   </body>
 </html>

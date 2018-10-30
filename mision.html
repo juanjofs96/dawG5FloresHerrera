@@ -12,51 +12,72 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <title>Mision</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <header class="row align-items-center">
-      <h1 class="col-10 border border-dark"><a href="principal.html">Academia Politecnica de Nivelacion</a></h1>
-      <img class="logo col-2 border border-dark" src="img/logo.png" alt="logo">
-    </header>
-
-    <nav>
-      <div class="row align-items-center">
-        <div class="col-2 border border-dark"><a href="nosotros.html">Nosotros</a></div>
-        <div class="col-2 border border-dark"><span>Mision</span></div>
-        <div class="col-2 border border-dark"><a href="vision.html">Visión</a></div>
-        <div class="col-2 border border-dark"><a href="noticias.html">Noticias</a></div>
-        <div class="col-2 border border-dark"><a href="preguntas.html">Preguntas Frecuentes</a></div>
-        <div class="col-2 border border-dark"><a href="contactenos.html">Contactenos</a></div>
-      </div>
-
-    </nav>
-
-    <section>
-      <div class="row align-items-center">
-        <h1 class="col-12 border border-dark">Misión</h1>
-        <img class="col-6 border border-dark" src="https://via.placeholder.com/1000x380" alt="placeholder"/>
-        <div class="w-100">
-        <p class="col-6 border border-dark"> 
-          La misión de la Academia Politecnica de Nivelación es promover el conocimiento y educar a los estudiantes en ciencia, tecnología y otras áreas académicas que servirán mejor a la nación y al mundo en el siglo XXI. La Academia Politecnica de Nivelación se dedica a brindar a sus estudiantes una educación que combina un estudio académico riguroso y la emoción del descubrimiento con el apoyo y la estimulación intelectual de una comunidad diversa. Buscamos desarrollar en cada miembro de la comunidad la capacidad y la pasión de trabajar de manera inteligente, creativa y eficaz para el mejoramiento de la humanidad.
-        </p>
-      </div>
-    </section>
-    
-    <footer>
-      
-      <div class="row align-items-center">
-        <div class="col-4 border border-dark"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></div>
-        <div class="col-4 border border-dark"><a id="twi" href="#">twitter</a></div>
-        <div class="col-4 border border-dark"><a id="insta" href="#">instagram</a></div>
-      </div>
-      <div class="row align-items-center">
-        <p class="col-12 border border-dark">&copy;2018 Academia Politecnica de Nivelación. Todos los derechos reservados.</p>
-      </div>
-      
-    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header class="col-xl-12">
+          <div class="row">
+            <h1 class="col-xl-10 border border-dark"><a href="principal.html">Academia Politecnica de Nivelación</a></h1>
+            <img class="logo col-xl-2 border border-dark" src="img/logo.png" alt="logo">
+          </div>
+        </header>
+        
+      </div>
+
+      <div class="row sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-info col-xl-12">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="menuPrincipal" class="collapse navbar-collapse">
+            <ul class="list-inline navbar-nav mx-auto">
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="nosotros.html">Nosotros</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="mision.html">Misión</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="vision.html">Visión</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="noticias.html">Noticias</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="preguntas.html">Preguntas Frecuentes</a></li>
+              <li class="list-inline-item nav-item active"><a class="nav-link"href="contactenos.html">Contactenos</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="row">
+        <section class="col-xl-12 border border-dark">
+          <div class="row">
+            <h1 class="col-xl-12 border border-dark">Misión</h1>
+            <img class="col-xl-6 border border-dark" src="https://via.placeholder.com/1000x380" alt="placeholder"/>
+            <div class="w-100"></div>
+            <p class="col-6 border border-dark"> 
+              La misión de la Academia Politecnica de Nivelación es promover el conocimiento y educar a los estudiantes en ciencia, tecnología y otras áreas académicas que servirán mejor a la nación y al mundo en el siglo XXI. La Academia Politecnica de Nivelación se dedica a brindar a sus estudiantes una educación que combina un estudio académico riguroso y la emoción del descubrimiento con el apoyo y la estimulación intelectual de una comunidad diversa. Buscamos desarrollar en cada miembro de la comunidad la capacidad y la pasión de trabajar de manera inteligente, creativa y eficaz para el mejoramiento de la humanidad.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="row">
+        <section class="col-xl-12 border border-dark">
+          <div class="row">
+            <ul class="col-xl-12 list-inline">
+              <li class="list-inline-item"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></li>
+              <li class="list-inline-item"><a id="twi" href="#">twitter</a></li>
+              <li class="list-inline-item"><a id="insta" href="#">instagram</a></li>
+            </ul> 
+          </div>
+        </section>
+      </div>
+
+      <div class="row">
+        <footer class="col-xl-12 border border-dark">
+          <p>&copy;2018 Academia Politecnica de Nivelación. Todos los derechos reservados.</p>
+        </footer>
+      </div>
+    </div>
+    
   </body>
 </html>
