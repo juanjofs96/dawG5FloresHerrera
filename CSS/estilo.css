@@ -4,6 +4,34 @@
 h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
+
+h1 {
+	margin: auto;
+	text-align: center;
+	line-height: 120px;
+	font-size: 56px;
+}
+/*div {
+	border-radius: 10px;
+	margin: auto;
+	margin-bottom: 15px;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #606060;
+	font-family: 'Baloo', cursive;
+	font-size: 36px;
+	text-align: center;
+	line-height: 120px;
+
+}*/
+#barralinks {
+	background-color: #696969;
+}
+
+#barra {
+	margin-right: 100px;
+}
+
 nav{
 	font-family: 'Open Sans';
 }
@@ -52,9 +80,15 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-#redes{
+
+#social {
+	margin: auto;
+	margin-bottom: 15px;
+	height: 40px;
 	text-align: center;
-	
+	line-height: 40px;
+
+
 }
 
 footer {
@@ -63,6 +97,7 @@ footer {
 	color: white;
 	font-weight: bold;
 	font-size: 1.1em;
+
     
 }
 
@@ -71,6 +106,7 @@ footer {
 	background-size: 28%;
 	background-repeat: no-repeat;
 	color: transparent;
+	
 }
 
 #twi {
@@ -78,6 +114,7 @@ footer {
 	background-size: 41%;
 	background-repeat: no-repeat;
 	color: transparent;
+	
 }
 
 #insta {
@@ -85,5 +122,6 @@ footer {
 	background-size: 28%;
 	background-repeat: no-repeat;
 	color: transparent;
+	
 }
 

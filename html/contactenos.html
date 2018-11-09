@@ -5,43 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="noticias, informacion, inscripciones, html, daw, cursos, nivelacion">
     <meta name="author" content="Juan Jose Flores, Anthony Herrera">
-    <meta charset="utf-8">
-    <meta name="description" content="Este sitio contiene una estructura semántica validada con el W3C Validator">
-    <meta name="viewport" content="width=device-width">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
     <title>Contactenos</title>
     <link href="../css/estilo.css" rel="stylesheet" type="text/css">
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="../js/jquery-3.3.1.slim.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <header class="col-xl-12">
           <div class="row">
-            <h1 class="col-xl-10 border border-dark"><a href="principal.html">Academia Politecnica de Nivelación</a></h1>
-            <img class="logo col-xl-2 border border-dark" src="img/logo.png" alt="logo">
+            <h1 class="col-xl-10"><a href="principal.html">Academia Politecnica de Nivelación</a></h1>
+            <div class="col-xl-2" id="img-logo"></div>
           </div>
         </header>
         
       </div>
 
-      <div class="row sticky-top">
-        <nav class="navbar navbar-expand-sm navbar-dark bg-info col-xl-12">
+      <div class="row sticky-top" id="barralinks">
+        <nav class="navbar navbar-expand-sm navbar-dark col-xl-12">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuPrincipal">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div id="menuPrincipal" class="collapse navbar-collapse">
             <ul class="list-inline navbar-nav mx-auto">
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="nosotros.html">Nosotros</a></li>
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="mision.html">Misión</a></li>
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="vision.html">Visión</a></li>
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="noticias.html">Noticias</a></li>
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="preguntas.html">Preguntas Frecuentes</a></li>
-              <li class="list-inline-item nav-item active"><a class="nav-link"href="contactenos.html">Contactenos</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="nosotros.html">Nosotros</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="mision.html">Misión</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="vision.html">Visión</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="noticias.html">Noticias</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="preguntas.html">Preguntas Frecuentes</a></li>
+              <li class="list-inline-item nav-item active" id="barra"><a class="nav-link"href="contactenos.html">Contactenos</a></li>
             </ul>
           </div>
         </nav>
@@ -114,24 +108,29 @@
         </section>
       </div>
 
-      <div class="row">
-        <section class="col-xl-12 border border-dark">
+      <div class="row bg-secondary" id="social">
+        <section class="col-xl-12">
           <div class="row">
             <ul class="col-xl-12 list-inline" id="redes">
-              <li class="list-inline-item"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></li>
-              <li class="list-inline-item"><a id="twi" href="#">twitter</a></li>
-              <li class="list-inline-item"><a id="insta" href="#">instagram</a></li>
+              <li class="col-xl-3 list-inline-item"><a id="face" href="https://www.facebook.com/pg/politecnica.apn/posts/?ref=page_internal">facebook</a></li>
+              <li class="col-xl-3 list-inline-item"><a id="twi" href="#">twitter</a></li>
+              <li class="col-xl-3 list-inline-item"><a id="insta" href="#">instagram</a></li>
             </ul> 
           </div>
         </section>
       </div>
 
       <div class="row">
-        <footer class="col-xl-12 border border-dark">
+        <footer class="col-xl-12">
           <p>&copy;2018 Academia Politecnica de Nivelación. Todos los derechos reservados.</p>
         </footer>
       </div>
     </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     
   </body>
 </html>
