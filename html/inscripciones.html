@@ -44,7 +44,77 @@
       <div class="row">
         <section class="col-xl-12">
           <h2>Ingresa tus datos aqui para la inscripcion al curso que desees</h2>
-          <form>Formulario de inscripcion
+          <form>
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Upload Photo</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+
+            <div class="form-row align-items-center">
+              <div class="col-auto my-1">
+                <div>
+                  <label>Course</label>
+                </div>
+              </div>
+              <div class="col-auto my-1">
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">Ser Bachiller</option>
+                  <option value="2">Pre-Politecnico</option>
+                </select>
+              </div>
+
+              <div class="col-auto my-1">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+          <!--form>Formulario de inscripcion
             <div>
               <label for="nombre">Nombres</label>
               <input type="text" id="nombre" placeholder="Juan" required>
@@ -104,7 +174,7 @@
             <div>
               <input type="button" value="Enviar" id = "boton">
             </div>
-          </form>      
+          </form-->      
         </section>
       </div>
 
