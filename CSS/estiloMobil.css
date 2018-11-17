@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
@@ -80,11 +80,13 @@ p {
 
 
 #social {
-	margin: auto;
+	/*margin: auto;
 	margin-bottom: 15px;
-	height: 40px;
+	height: 40px;*/
 	text-align: center;
-	line-height: 40px;
+	/*line-height: 40px;*/
+
+
 }
 
 footer {
