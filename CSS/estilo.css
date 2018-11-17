@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-
 	background-color: #7EBEE3;	
 	}
 
@@ -10,7 +9,13 @@ h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
 
-h1 {
+h1, h2#inscripciones{
+	text-align: center;
+	font-size: 90px;
+}
+
+
+header {
 	margin: auto;
 	text-align: center;
 	line-height: 120px;
@@ -47,9 +52,9 @@ span {
 }
 
 div#img-logo {
-	background-image: url('../img/logo.png');
-	width: 10em;
-	height: 13em;
+	background-image: url('../img/logonavidad.jpg');
+	width: 130px;
+	height: 160px;
 }
 
 div#img-sb {
