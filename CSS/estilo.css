@@ -27,6 +27,11 @@ header {
 	background-color: #696969;
 }
 
+#news{
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #51B3E5;
+}
 nav{
 	font-family: 'Open Sans';
 }
