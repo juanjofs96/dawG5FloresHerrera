@@ -11,9 +11,8 @@ h1, h2 {
 
 h1, h2#inscripciones{
 	text-align: center;
-	font-size: 90px;	
+	font-size: 80px;
 }
-
 
 header {
 	margin: auto;
@@ -24,19 +23,6 @@ header {
 	background-color: white;
 }
 
-/*div {
-	border-radius: 10px;
-	margin: auto;
-	margin-bottom: 15px;
-	width: 120px;
-	height: 120px;
-	border: 2px solid #606060;
-	font-family: 'Baloo', cursive;
-	font-size: 36px;
-	text-align: center;
-	line-height: 120px;
-
-}*/
 #barralinks {
 	background-color: #696969;
 }

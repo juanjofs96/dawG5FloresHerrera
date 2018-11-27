@@ -19,19 +19,6 @@ h1 {
 	background-color: white;
 }
 
-/*div {
-	border-radius: 10px;
-	margin: auto;
-	margin-bottom: 15px;
-	width: 120px;
-	height: 120px;
-	border: 2px solid #606060;
-	font-family: 'Baloo', cursive;
-	font-size: 36px;
-	text-align: center;
-	line-height: 120px;
-
-}*/
 #barralinks {
 	background-color: #696969;
 }
@@ -80,13 +67,7 @@ p {
 
 
 #social {
-	/*margin: auto;
-	margin-bottom: 15px;
-	height: 40px;*/
 	text-align: center;
-	/*line-height: 40px;*/
-
-
 }
 
 footer {
