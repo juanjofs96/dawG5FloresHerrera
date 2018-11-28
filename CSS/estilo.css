@@ -32,6 +32,13 @@ header {
 	border-radius: 10px;
 	background-color: #51B3E5;
 }
+
+section#infoPagForm{
+	margin-top: 15%;
+}
+aside#cursos{
+	font-size: 5
+}
 nav{
 	font-family: 'Open Sans';
 }
@@ -44,8 +51,8 @@ span {
 
 div#img-logo {
 	background-image: url('../images/logonavidad.jpg');
-	width: 130px;
-	height: 160px;
+	width: 150px;
+	height: 100px;
 }
 
 div#img-sb {
@@ -55,9 +62,9 @@ div#img-sb {
 }
 
 div[id^="img-"]{
-	background-size: 100% 100%;
+	background-size: 50% 100%;
 	background-repeat: no-repeat;	
-	margin: 0px;
+	margin: auto;
 }
 
 img#redes {
