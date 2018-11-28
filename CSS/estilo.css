@@ -43,13 +43,13 @@ span {
 }
 
 div#img-logo {
-	background-image: url('../img/logonavidad.jpg');
+	background-image: url('../images/logonavidad.jpg');
 	width: 130px;
 	height: 160px;
 }
 
 div#img-sb {
-	background-image: url('../img/sb.jpg');
+	background-image: url('../images/sb.jpg');
 	width: 50em;
 	height: 40em;
 }
@@ -94,7 +94,7 @@ footer {
 }
 
 #face {
-	background-image: url('../img/facebook.png');
+	background-image: url('../images/facebook.png');
 	background-size: 28%;
 	background-repeat: no-repeat;
 	color: transparent;
@@ -102,7 +102,7 @@ footer {
 }
 
 #twi {
-	background-image: url('../img/twitter.png');
+	background-image: url('../images/twitter.png');
 	background-size: 41%;
 	background-repeat: no-repeat;
 	color: transparent;
@@ -110,7 +110,7 @@ footer {
 }
 
 #insta {
-	background-image: url('../img/instagram.png');
+	background-image: url('../images/instagram.png');
 	background-size: 28%;
 	background-repeat: no-repeat;
 	color: transparent;
