@@ -9,9 +9,14 @@ h1, h2 {
 	font-family: 'Oswald', sans-serif;
 }
 
-h1, h2#inscripciones{
+h1, h2{
 	text-align: center;
 	font-size: 80px;
+}
+
+footer p{
+	font-size: 10px;
+	margin-top: 2px;
 }
 
 header {
@@ -23,6 +28,9 @@ header {
 	background-color: white;
 }
 
+#mapa{
+	margin-bottom: 20px;
+}
 #barralinks {
 	background-color: #696969;
 }
@@ -49,20 +57,33 @@ span {
 	font-weight: bold;
 }
 
-div#img-logo {
+#img-logo {
 	background-image: url('../images/logonavidad.jpg');
-	width: 150px;
 	height: 100px;
 }
 
-div#img-sb {
+#img-sb {
 	background-image: url('../images/sb.jpg');
 	width: 50em;
 	height: 40em;
 }
 
-div[id^="img-"]{
-	background-size: 50% 100%;
+#logoform{
+	background-image: url('../images/logo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#logoblanco{
+	background-image: url('../images/razonesblanco.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 10%;
+	height: 20em;
+}
+
+[id^="img-"]{
+	background-size: 100% 100%;
 	background-repeat: no-repeat;	
 	margin: auto;
 }
