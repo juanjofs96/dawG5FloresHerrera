@@ -39,8 +39,8 @@
               <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="contactenos">Contactenos</a></li-->
 
               <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-              <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="mision.html">Misión</a></li>
-              <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="vision.html">Visión</a></li>
+              
+              <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="calendario.html">Calendario</a></li>
               <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="noticias.html">Noticias</a></li>
               <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a></li>
               <li class="mr-5 list-inline-item nav-item active" ><a class="nav-link" href="contactenos.html">Contáctenos</a></li>
@@ -57,20 +57,20 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label>Nombres</label>
-                <input type="text" class="form-control" placeholder="First name">
+                <input pattern="^([a-zA-Z0-9)$" required="required" maxlength="20" type="text" class="form-control" placeholder="First name">
               </div>
               <div class="form-group col-md-6">
                 <label>Apellidos</label>
-                <input type="text" class="form-control" placeholder="Last name">
+                <input pattern="^([a-zA-Z0-9)$" required="required" maxlength="20" type="text" class="form-control" placeholder="Last name">
               </div>
             </div>
             <div class="form-group">
                 <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <input type="email" required="required" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
             <div class="form-group">
               <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <input type="text" required="required" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
             <div class="form-group">
               <label for="inputAddress2">Address 2</label>
@@ -79,7 +79,7 @@
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" required="required" class="form-control" id="inputCity">
               </div>
               <div class="form-group col-md-4">
                 <label for="inputState">State</label>
@@ -150,6 +150,8 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="javascripts/jquery-3.3.1.slim.min.js"></script>
     <script src="javascripts/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+    <script src="javascripts/plugin.js"></script>
     
   </body>
 </html>
