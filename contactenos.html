@@ -70,23 +70,25 @@
                 <input type="email" required="required" class="form-control" id="inputEmail4" placeholder="Email">
               </div>
             <div class="form-group">
-              <label for="inputAddress">Direccion</label>
+              <label for="inputAddress">Dirección</label>
               <input type="text" required="required" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
             <div class="form-group">
-              <label for="inputAddress2">Telefono</label>
+              <label for="inputAddress2">Teléfono</label>
               <input type="text" required="required" class="form-control" id="inputAddress2" placeholder="+593 999999999">
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
+                <label for="inputCity">Ciudad</label>
                 <input type="text" required="required" class="form-control" id="inputCity">
               </div>
               <div class="form-group col-md-4">
-                <label for="inputState">State</label>
+                <label for="inputState">Zona</label>
                 <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>...</option>
+                  <option selected>Elige...</option>
+                  <option>Sur</option>
+                  <option>Centro</option>
+                  <option>Norte</option>
                 </select>
               </div>
               <div class="form-group col-md-2">
@@ -98,29 +100,29 @@
             <div class="form-row align-items-center">
               <div class="col-auto my-1">
                 <div>
-                  <label>Course</label>
+                  <label>Curso</label>
                 </div>
               </div>
               <div class="col-auto my-1">
-                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferencia</label>
                 <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                  <option selected>Choose...</option>
+                  <option selected>Elige...</option>
                   <option value="1">Ser Bachiller</option>
                   <option value="2">Pre-Politecnico</option>
                 </select>
               </div>
 
               <div class="col-auto my-1">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Envía</button>
               </div>
             </div>
           </form>      
         </section>
         <section id="infoPagForm" class="text-center col-xl-3">
-          <div id="logoform" class="col-xl-12"></div>
-          <div class="col-xl-12">Academia Politecnica de Nivelación</div>
-          <div class="col-xl-12">Direccion: Alborada, 7ma etapa</div>
-          <div class="col-xl-12">Telefono: (04) 5127128</div>
+          <img id="logocon" class="img-responsive img-rounded" src="../images/logo.png" alt="logocon"></img>
+          <div class="col-xl-12">Academia Politécnica de Nivelación</div>
+          <div class="col-xl-12">Dirección: Alborada, 7ma etapa</div>
+          <div class="col-xl-12">Teléfono: (04) 5127128</div>
         </section>
       </div>
     </div>
@@ -139,12 +141,12 @@
 
       <div class="row">
         <footer class="col-xl-12">
-          <p>&copy;2018 Academia Politécnica de Nivelación. Todos los derechos reservados.</p>
+          <p class="text-center">&copy;2018 Academia Politécnica de Nivelación. Todos los derechos reservados.</p>
           <p class="text-right">Sitio desarrollado por: Juan José Flores y Anthony Herrera</p>
         </footer>
       </div>
     </div>
-    
+    </body>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="javascripts/jquery-3.3.1.slim.min.js"></script>
@@ -152,5 +154,5 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
     <script src="javascripts/plugin.js"></script>
     
-  </body>
+  
 </html>
