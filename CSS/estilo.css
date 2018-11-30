@@ -5,13 +5,22 @@ body{
 	background-color: #7EBEE3;	
 	}
 
-h1, h2 {
-	font-family: 'Oswald', sans-serif;
-}
-
 h1, h2{
+	font-family: 'Oswald', sans-serif;
 	text-align: center;
 	font-size: 80px;
+}
+
+@media (max-width: 1200px) {
+   h1{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1200px) {
+   h2{
+    font-size: 2.5em;
+  }
 }
 
 footer p{
@@ -26,6 +35,11 @@ header {
 	font-size: 56px;
 	color: #15496D;
 	background-color: white;
+}
+
+a:link, a:hover, a:visited{
+	text-decoration: none;
+	color: #15496D;
 }
 
 #mapa{
@@ -57,11 +71,19 @@ span {
 	font-weight: bold;
 }
 
+/*
+[id^="img-"]{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
 #img-logo {
 	background-image: url('../images/logonavidad.jpg');
 	height: 100px;
 }
-
+*/
+#logo{
+	height: 100px;
+}
 #img-sb {
 	background-image: url('../images/sb.jpg');
 	width: 50em;
@@ -82,20 +104,11 @@ span {
 	height: 20em;
 }
 
-[id^="img-"]{
-	background-size: 100% 100%;
-	background-repeat: no-repeat;	
-	margin: auto;
-}
+
 
 img#redes {
 	width: 8em;
 	height: 5em;
-}
-
-#inscripciones{
-	font-size: 2em;
-	text-align: center;
 }
 
 p {
