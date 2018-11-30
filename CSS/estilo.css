@@ -1,6 +1,18 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+html{
+	min-height: 100%;
+	position: relative;
+}
+
+.fin{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: auto;
+}
+
 body{
 	background-color: #7EBEE3;	
 	}
@@ -24,6 +36,12 @@ h3,h4,h5{
 @media (max-width: 1200px) {
    h2{
     font-size: 2.5em;
+  }
+}
+
+@media (max-width: 600px) {
+   h2{
+    font-size: 1.5em;
   }
 }
 
@@ -108,7 +126,7 @@ p#us{
    		display: inline;
   }
   	p{
-  		font-size: 10px;
+  		font-size: 12px;
   	}
 }
 
@@ -144,11 +162,7 @@ footer {
 	color: white;
 	font-weight: bold;
 	font-size: 1.1em;
-}
-
-.fin{
-	position: relative;
-	bottom: 100%;
+	position: absolute;
 }
 
 #face {
